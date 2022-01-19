@@ -4,29 +4,29 @@ function Nav() {
   return (
     <nav className="flex flex-col bg-lightGray h-screen w-60 items-center">
       <h1 className="mt-12 font-semibold">
-        <a href="https://www.devchallenges.io">
+        <li href="https://www.devchallenges.io">
           <span className="text-red-400">Dev</span>Challenges.io
-        </a>
+        </li>
       </h1>
       <div className="flex flex-col space-y-5 mt-32">
-        <a href="#" className="text-gray-400 hover:text-black">
+        <li href="#" className="text-gray-400 hover:text-black cursor-pointer">
           Colors
-        </a>
-        <a href="#" className="text-gray-400 hover:text-black">
+        </li>
+        <li href="#" className="text-gray-400 hover:text-black cursor-pointer">
           Typography
-        </a>
-        <a href="#" className="text-gray-400 hover:text-black">
+        </li>
+        <li href="#" className="text-gray-400 hover:text-black cursor-pointer">
           Spaces
-        </a>
-        <a href="#" className="text-gray-400 hover:text-black">
+        </li>
+        <li href="#" className="text-gray-400 hover:text-black cursor-pointer">
           Buttons
-        </a>
-        <a href="#" className="font-bold">
+        </li>
+        <li href="#" className="font-bold cursor-pointer">
           Inputs
-        </a>
-        <a href="#" className="text-gray-400 hover:text-black">
+        </li>
+        <li href="#" className="text-gray-400 hover:text-black cursor-pointer">
           Grid
-        </a>
+        </li>
       </div>
     </nav>
   );
